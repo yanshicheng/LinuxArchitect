@@ -1,0 +1,44 @@
+#php编译文件注释
+```
+--with-pdo-mysql \
+--with-iconv-dir \
+--with-freetype-dir \
+--with-jpeg-dir \
+--with-png-dir \
+--with-curl \
+--with-gd \
+--with-gmp \
+--with-zlib \
+--with-xmlrpc \
+--with-openssl \
+--without-pear \
+--with-snmp \
+--with-gettext \
+--with-mhash \
+--with-libxml-dir=/usr \
+--with-ldap \
+--with-ldap-sasl \
+--with-fpm-user=nginx \
+--with-fpm-group=nginx \
+--enable-xml \
+--enable-fpm  \
+--enable-ftp \
+--enable-bcmath \
+--enable-soap \
+--enable-shmop \
+--enable-sysvsem \
+--enable-sockets \
+--enable-inline-optimization \
+--enable-maintainer-zts \
+--enable-mbregex \
+--enable-mbstring \
+--enable-pcntl \
+--enable-zip \
+--disable-fileinfo \
+--disable-rpath \
+--enable-libxml \
+--enable-opcache \   ###加速软件
+--disable-fileinfo \
+--enable-mysqlnd \
+--with-pdo-mysql=mysqlnd \
+```
